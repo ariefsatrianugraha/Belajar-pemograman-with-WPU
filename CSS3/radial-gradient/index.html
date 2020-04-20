@@ -1,0 +1,28 @@
+<!-- sama seperti linear gradient -->
+<!-- properti radial-gradient (tipe,jangkauan at offer x dan offer y,warna 1 warna 2) -->
+<!-- tipe ada dua value yaitu cirlce dan ellipse -->
+<!-- jangkauan ada 4 value yaiutu closest-corner(jarak dari pusat gradient ke sudut terdekat elemen),
+closest-side (jarak dari pusat gradient ke sisi terdekat elemen),farthest-corner(jarak dari pusat gradient ke sudut terjauh elemen),
+farthest-side (jarak dari pusat gradient ke sisi terjauh elemen)
+offer y (top,center,bottom,px),offer x(left,center,right,px) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radial Gradient</title>
+    <style>
+        div{
+            width: 500px;
+            height: 400px;
+            margin: auto;
+            /* background: radial-gradient(circle closest-side at center ,red,blue); */
+            background: radial-gradient(ellipse farthest-corner at top center ,red,blue);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

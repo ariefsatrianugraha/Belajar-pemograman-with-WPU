@@ -1,0 +1,62 @@
+<!-- animation mempunyai keyframe -->
+<!-- properti animation : ([name],[duration],[timing-function],[delay],[interation-count],[direction],[fill-mode],[play-state]) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .kotak{
+            width: 200px;
+            height: 200px;
+            background-color: salmon;
+            /* transition: 2s ease all; */
+            /* animation: animasikotak 2s ease; */
+            /* animation: animasikotak 2s ease 2; */
+            /* animation: animasikotak 2s ease infinite; */
+            /* animation: animasikotak 2s ease 2 normal; */
+            /* animation: animasikotak 2s ease 2 reverse; */
+            /* animation: animasikotak 2s ease 3 alternate; */
+            /* animation: animasikotak 2s ease 3 alternate-reverse; */
+            /* animation: animasikotak 2s ease 3 alternate forwards; */
+            animation: animasikotak 3s ease infinite alternate forwards running;
+        }
+
+        /* .kotak:hover{
+            /* width: 500px; */
+            /* animation: animasikotak 2s ease;
+        } */ 
+
+        @keyframes animasikotak {
+            /* from{
+                width: 200px;
+            }
+            to{
+                width: 500px;
+            } */
+
+            0%{
+                width: 200px;
+            }
+
+            50%{
+                width: 500px;
+                height: 200px;
+            }
+
+            100%{
+                width: 500px;
+                height: 500px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="kotak"></div>
+
+</body>
+</html>

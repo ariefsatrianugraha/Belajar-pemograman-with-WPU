@@ -1,0 +1,55 @@
+<!-- tipe filter (blur,brightness,contrast,grayscale,sepia,invert,opacity,drop-shadow) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+    <style>
+        /* 
+            filter
+                blur(px),
+                brightness(angka | %),
+                constrast(angka | %),
+                saturate(angka |%),
+                grayscale(angka | %),
+                sepia(angka |%),
+                hue-rotate(deg),
+                invert(angka |%),
+                opacity(angka |%),
+                drop-shadow(sama seperti drop shadow)
+         */
+
+         img{
+             /* filter: blur(30px); */
+             /* filter: brightness(200%); */
+             /* filter: contrast(150%); */
+             /* filter: saturate(190%); */
+             /* filter: grayscale(100%); */
+             /* filter: sepia(100%); */
+            /* filter: hue-rotate(-90deg); */
+            /* filter: invert(80%); */
+            /* filter: opacity(.5); */
+            /* filter: drop-shadow(5px 5px 5px black); */
+            
+
+            filter: blur(5px) grayscale(50%);
+            transition: 1s;
+         }
+
+         img:hover{
+             filter: blur(0) grayscale(0);
+         }
+
+         h1{
+            filter: drop-shadow(5px 5px 5px black);
+         }
+    </style>
+</head>
+<body>
+
+    <img src="kirito.jpg" alt="filter">
+    <h1>arief satria nugraha</h1>
+</body>
+</html>

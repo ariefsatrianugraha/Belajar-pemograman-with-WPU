@@ -1,0 +1,136 @@
+<!-- 
+    tag div(block) dan span(inline)
+    tag pada html digunakan untuk memberikan 'maksud' / arti pada sebuah konten (p untuk paragraf, h1 untuk heading utama dll)
+    tag <div> dan <span> tidak memiliki 'arti' apapun, keduanya digunakan untuk mengelompokan tag tag html dan memberikan informasi terhadap tag tag tersebut
+-->
+
+<!-- display adalah setiap tag pada html berada dalam sebuah kotak.property display pada css mengatur prilaku dalam kotak tersebut 
+    setiap tag pada html memiliki nilai default untuk setiap property display.tetapi juga dapat mengubah prilaku dari tag tersebut dengan menggantikan value-nya
+    display ada 4 yaitu inline,block,inline-block dan none
+-->
+
+<!-- inline
+    -elemen html yang secara default tidak menambahkan baris baru ketika dibuat
+    -lebar dan tinggi element sebesar konten yang ada didalamnya 
+    -kita tidak dapat mengatur tinggi dan lebar dari elemen inline
+    -margin dan padding hanya mempengaruhi elemen secara horizontal ,tidan vertikal
+
+    element inline (b,strong,i,em,a,span,sub,sup,button,input,label,select,textarea,...)
+
+    bisa diatur vertikal dan horizontal adalah tag img
+-->
+
+<!-- inline-block
+    -tidak ada element yang secara default memiliki property display inline-block
+    -kita harus ubah secara manual property tersebut 
+    -perilaku dasarnya sama dengan element inline
+    -perbedaan ,element inline-block dapat kita atur tinggi dan lebarnya
+-->
+
+<!-- block
+    -element html yang secara default menambahkan baris baru ketika dibuat
+    -jika tidak diatur lebar-nya maka lebar default dari element block akan memenuhi lebar dari browser/parentnya
+    -kita dapat mengatur tinggi dan lebar dari element block 
+    -didalam element block,kita dapat menyimpan tag dengan elemen inline,inline-block,atau bahkan element block lagi
+
+    element block(h1-h6,p,ol,ul,li,form,hr,div,...)
+-->
+
+<!-- none
+    digunakan untuk menghilangkan sebuah elemen
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+
+    <style>
+        /* .navigation{
+            background-color: aquamarine;
+        }
+
+        .main{
+            background-color: lightgreen;
+        }
+
+        .main span{
+            background-color: lightblue;
+        } */
+
+        /* a{
+            background-color: lightcoral;
+            width:200px;
+            height: 200px;
+            display: inline-block;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+        }
+
+        h1,h2,p {
+            background-color: lime;
+        } */
+/* 
+        .main {
+            background-color: mediumaquamarine;
+            width: 600px;
+        }
+
+        .main h2{
+            background-color: mediumvioletred;
+        } */
+
+        /* img {
+            display: none;
+        } */
+
+        .navigation li{
+            display: inline;
+        }
+    </style>
+
+<body>
+
+    <div class="header">
+        <h1>Selamat datang di website kami</h1>
+    </div>
+        
+    <div class="navigation">
+        <h2>Daftar Link</h2>
+        <!-- <a href="#">link 1</a>
+        <a href="#">link 2</a>
+        <a href="#">link 3</a>
+        <a href="#">link 4</a>
+        <a href="#">link 5</a> -->
+
+        <!-- mengubah dispay -->
+        <ul>
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+            <li><a href="#">link 5</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <h2>Judul artikel</h2>
+        <h2>Judul artikel</h2>
+        <img src="panda.png" alt="panda">
+        <p>Lorem ipsum dolor, <span>sit amet consectetur adipisicing elit</span>. Ipsum illo ullam debitis ut veritatis expedita corrupti, repellendus voluptatibus, eius amet consequuntur vel iste non. Dolores autem illo sint. Nesciunt, molestias.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel enim nisi minima fugit tempora dolore aperiam numquam quisquam, natus repellat? Alias iure sit optio eos aspernatur est nam autem dolore.</p>
+    </div>
+    
+    <div class="copyright">
+        <p>copyright 2020 arief satria nugraha</p>
+    </div>
+
+</body>
+</html>

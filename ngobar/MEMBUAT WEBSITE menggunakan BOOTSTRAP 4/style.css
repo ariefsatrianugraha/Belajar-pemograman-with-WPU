@@ -1,0 +1,12 @@
+body{
+    margin-top: 50px;
+}
+
+.jumbotron img{
+    width: 25%;
+}
+
+section{
+    min-height: 420px;
+}
+

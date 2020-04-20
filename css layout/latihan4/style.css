@@ -1,0 +1,35 @@
+div{
+    /* width: 200px;
+    height:200px;
+    background-color: coral;
+    margin:20px auto; */
+    /* padding-left: 30px;
+    padding-top: 10px; */
+    /* padding :10px 20px 30px 40px; */
+
+    /* padding:50px; */
+
+    /* type border ada 4 (double,solid,dotted,dashed) */
+    /* border: 5px solid black; */
+    /* 
+    border-left:5px solid black ;
+    border-right: 10px dashed powderblue; */
+
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.satu{
+    /* width: 570px; */
+    background-color: royalblue;
+    padding:10px;
+    border: 15px solid red;
+}
+
+.dua{
+    /* width: 520px; */
+    background-color: lightgreen;
+    padding: 30px;
+    border:10px dashed orange;
+}

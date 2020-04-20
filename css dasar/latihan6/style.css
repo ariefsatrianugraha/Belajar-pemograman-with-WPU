@@ -1,0 +1,67 @@
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.hello:active{
+    font-style: italic;
+}
+
+.hello:visited{
+    color:red;
+}
+/* 
+li:first-child a{
+    color:cyan;
+}
+
+li:last-child a{
+    color:green;
+} */
+/* 
+li:nth-child(7) a{
+    color:yellow;
+} */
+/* 
+li:nth-child(2n) a{
+    color:yellow;
+} */
+/* 
+li:nth-child(2n-1) a{
+    color:yellow;
+} */
+/* 
+li:nth-child(3n+1) a{
+    color:yellow;
+} */
+
+/* even untuk bilangan genap */
+/* li:nth-child(even) a{
+    color:yellowgreen;
+} */
+
+/* unutk bilangan ganjil */
+/* li:nth-child(odd) a{
+    color: yellowgreen;
+} */
+
+li:nth-child(odd) a{
+    color: yellow;
+}
+
+li:nth-child(odd) a:hover{
+    color:yellowgreen;
+}
+
+p:first-of-type{
+    color:blue;
+}
+
+p:last-of-type{
+    color:magenta;
+}

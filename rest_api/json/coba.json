@@ -1,0 +1,30 @@
+[
+    {
+        "nama" : "Arief Satria Nugraha",
+        "umur" : 20,
+        "nrp" : "12345",
+        "lulus" : true,
+        "hobby" : [
+            "koding",
+            "gaming"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "mamang suratman",
+            "pembimbing2" : "slamet binslamer"
+        }
+    },
+    {
+        "nama" : "Arief Satria Nugraha",
+        "umur" : 20,
+        "nrp" : "12345",
+        "lulus" : true,
+        "hobby" : [
+            "koding",
+            "gaming"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "mamang suratman",
+            "pembimbing2" : "slamet binslamer"
+        }
+    }
+]

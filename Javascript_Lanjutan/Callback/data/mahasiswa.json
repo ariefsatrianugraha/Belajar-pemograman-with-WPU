@@ -1,0 +1,23 @@
+[
+    {
+        "nama" : "arief satria nugraha",
+        "nrp" : "12345",
+        "email" : "ariefsatria@gmail.com",
+        "jurusan" : "ik",
+        "idWali" : 1
+    },
+    {
+        "nama" : "mamang suratman",
+        "nrp" : "12341",
+        "email" : "mamang@gmail.com",
+        "jurusan" : "ti",
+        "idWali" : 2
+    },
+    {
+        "nama" : "julius prakarsa",
+        "nrp" : "12342",
+        "email" : "julius@gmail.com",
+        "jurusan" : "si",
+        "idWali" : 3
+    }
+]

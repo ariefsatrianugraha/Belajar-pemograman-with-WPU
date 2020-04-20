@@ -1,0 +1,55 @@
+<!-- tranform ada 4 
+- scale(memperbesar dan memperkecil),rotate(memutar),skew(membuat condong/miring),translate(mengubah posisi)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
+
+        /* 
+            transform
+                scale(angka), scalex(angka),scaley(angka),
+                rotate(deg),rotatex(Angka),rotatey(angka)
+                skew(deg),skewx(deg),skewy(deg),
+                translate(px),translatex(px),translatey(px)
+         */
+
+        .kotak{
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px auto 0;
+            /* transform: scale(.5); */
+            transition: 1s;
+        }
+
+        .kotak:hover{
+            /* transform: scale(1.5,2); */
+            /* transform: scaleX(1.5) scaleY(2); */
+            /* transform: rotate(-45deg); */
+            /* transform: rotateX(180deg); */
+            /* transform: rotateY(180deg); */
+            /* transform: rotate(180deg) rotateX(180deg) rotateY(180deg); */
+            /* transform: skew(30deg); */
+            /* transform: skewX(30deg); */
+            /* transform: skewY(-30deg); */
+            /* transform: translate(50px); */
+            /* transform: translate(50px ,100px); */
+            /* transform: translateX(50px) translateY(100px); */
+            transform: scale(2) rotate(30deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti modi magnam cupiditate eum at sed libero repudiandae voluptate consectetur perspiciatis veritatis asperiores, facere iste voluptates ipsum saepe nostrum ab rerum.</p>
+</body>
+</html>
